@@ -1,0 +1,51 @@
+section {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 70%;
+    background: lightgray;
+    border: 1px solid gray;
+    height: 300px;
+    padding: 10px;
+}
+
+section p {
+    font-size: small;
+    margin: 0;
+}
+
+form input {
+    width: calc(475px - 60px);
+}
+
+button {
+    background: #229954;
+    color: white;
+    font-size: small;
+    border-radius: 10%;
+}
+
+table tr th {
+    font-size: small;
+}
+
+.table-data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.delete {
+    background: none;
+    border: none;
+}
+
+.complete {
+    background: none;
+    border: none;
+}
+
+.completed {
+    text-decoration: line-through
+}
